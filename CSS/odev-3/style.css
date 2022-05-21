@@ -1,0 +1,133 @@
+shtml,
+body {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0px;
+}
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+}
+#left-header {
+  padding-left: 20px;
+}
+#right-header {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  text-align: start;
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+  margin: 20px 10px;
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+
+.material-icons {
+  margin: 20px 10px;
+}
+
+#search-bar {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  margin: 10px 0;
+}
+.functional-text-field {
+  padding: 10px;
+}
+.text-field {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  height: 40px;
+  width: 550px;
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+}
+#search-icon {
+  color: rgba(0, 0, 0, 0.4);
+  flex: 0 1 auto;
+}
+#field {
+  width: 400px;
+  font-size: 14px;
+  border: hidden;
+}
+#field:focus {
+  outline: none;
+}
+.buttons {
+  padding-top: 30px;
+}
+#lucky-button,
+#search-button {
+  background-color: #f8f9fa;
+  border: hidden;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 10px 4px;
+  padding: 0 16px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.additional-information {
+  width: 100%;
+  height: calc(100vh - (432px));
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  background-color: #f1f3f4;
+  justify-content: space-between;
+}
+#left-footer {
+  float: left;
+}
+#right-footer a,
+#left-footer a {
+  color: #70757a;
+}
+#lucky-button:hover,
+#search-button:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.material-icons:hover {
+  border-width: 150px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+a:hover {
+  text-decoration: underline;
+}
+#search-icon:focus {
+  outline: none;
+}

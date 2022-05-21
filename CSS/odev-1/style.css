@@ -1,0 +1,40 @@
+*{
+  box-sizing: border-box;
+  background-color: #fefefe99;
+  margin: 10px 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a{
+  text-decoration: none;
+  color: #008693ee;
+  font-weight: bold;
+}
+h1{
+  font-size: 2.5rem;
+}
+.inpage{
+  font: 1.5rem bolder Arial, Helvetica, sans-serif;
+}
+header, section, ol, li{
+  display: grid;
+  place-items: center;
+}
+nav {
+  width: 100%;
+  padding: 1rem;
+  background-color: #ffffff50;
+  display: flex;
+  justify-content: center;
+}
+nav a{
+  background: transparent;
+  padding: 0 32px;
+}
+ol p {
+  inline-size: 330px;
+  overflow-wrap: break-word;
+}
+article{
+  margin: 20px 40px;
+}
