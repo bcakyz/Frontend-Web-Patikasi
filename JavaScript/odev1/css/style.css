@@ -1,0 +1,38 @@
+body {
+  background: black;
+}
+
+.clock {
+  position: relative;
+  text-align: center;
+  margin: 2rem 0;
+  color: #e98208;
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 7px;
+}
+
+.text1 {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 2.6rem;
+  font-family:Cambria, Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.4rem;
+}
+
+.text2 {
+  position: relative;
+  text-align: center;
+  color: #e98208;
+  font-size: 2rem;
+  font-family:Cambria, Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 0.4rem;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+img {
+  margin: 6rem 0 2rem 0;
+  width: 17%;
+}
